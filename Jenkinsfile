@@ -15,6 +15,7 @@ pipeline {
     
     post {
         always {
+            echo 'commit made by poll SCM'
             cleanWs()
         }
     }
