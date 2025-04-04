@@ -15,7 +15,7 @@ pipeline {
     
     post {
         always {
-            echo 'commit made by poll SCM again and agiamn'
+            echo 'commit made by poll SCM again and agiamnjhjhjhh'
             cleanWs()
         }
     }
